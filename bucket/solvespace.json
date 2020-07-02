@@ -1,0 +1,20 @@
+{
+    "version": "2.3",
+    "description": "Free parametric 3D CAD tool",
+    "homepage": "http://solvespace.com",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/solvespace/solvespace/releases/download/v2.3/solvespace.exe",
+    "hash": "65287e8cde133fe79a06105375dc78408d424419d583e4a10ff7f10eb9bf52d9",
+    "shortcuts": [
+        [
+            "solvespace.exe",
+            "SolveSpace"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/solvespace/solvespace"
+    },
+    "autoupdate": {
+        "url": "https://github.com/solvespace/solvespace/releases/download/v$version/solvespace.exe"
+    }
+}
